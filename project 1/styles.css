@@ -1,0 +1,51 @@
+h1 {
+  font-family: tahoma;
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(24, 124, 230);
+}
+
+p {
+  color: #838494;
+  font-family: tahoma;
+  text-align: center;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(4, 20, 37);
+}
+
+form {
+    display: block;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: left;
+    font-family: tahoma;
+    font-size: 1rem;
+}
+
+label {
+  color: #041425;
+  text-align: left; 
+  padding: 1em;
+}
+
+input {
+  margin: 1em;
+  display: inline-block;
+}
+
+.header {
+    padding: 0.25em;
+}
+
+.form {
+  background-color: #838494;
+  display: block;
+}
+
+[name="dropdown"] {
+  margin: 1rem;
+  
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <div class="header">
+      <link rel="stylesheet" href="styles.css">
+      <h1 id="title">Azure Investments Satisfation Survey</h1>
+      <p id="description">Help us continously improve your experience with Azure Investments!</p>
+      </div>
+    </head>
+    <main>
+      <body>
+        <form id="survey-form">
+          <div class="form">
+          <label id="name-label">Name
+          <br>
+          <input required id="name" type="text" placeholder="Enter your name... " />
+          </label>
+          <br>
+          <label id="email-label">Email
+            
+          <br>
+          <input required id="email" type="email" placeholder="Enter your email... " />
+          </label>
+          <br>
+          <label id="number-label">[Optional Income Discolsure]
+          <br>
+          <input id="number" type="number" min="10000" max="1000000" placeholder="Est. Monthly Income... ">
+          <br>
+          <label id="dropdown-label">How well did your first year with Azure Investments meet expectations? (1-5)
+            <br>
+          <select type="dropdown" id="dropdown">
+            <option value="5">5 - Greatly Exceeds Expectations</option>
+            <option value="4">4 - Exceeds Expectations</option>
+            <option value="3">3 - Barely Above Expectations</option> 
+            <option value="2">2 - Meets Expectations</option>
+            <option value="1">1 - Beneath Expectations</option>
+            </select>
+            <br>
+          <label id="referral-label">Would you recommend Azure Investments to a friend?
+            <br>
+          <input name="radio" value="3" type="radio"> Yes <br>
+          <input name="radio" value="2" type="radio"> No <br>
+          <input name="radio" value="1" type="radio"> Unsure
+            <br>
+          <label id="checkbox-label">What would you like to see improved?
+            <br>
+          <input type="checkbox" value="a"> Customer Service
+          <br>
+          <input type="checkbox" value="b"> Investment Consulations
+          <br>
+          <input type="checkbox" value="c"> Product Selection
+          <br>
+          <input type="checkbox" value="d"> Website
+          <br>
+          <input type="checkbox" value="e"> Mobile App
+          <br>
+          <label id="textarea-label">Other thoughts or concerns?
+            <br>
+            <textarea placeholder="Tell us more..."></textarea>
+          <br>
+          </div>
+<input id="submit" type="submit">
+        
+        </form>
+        </body>
+      </main>
+  </html>
